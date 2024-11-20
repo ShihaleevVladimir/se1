@@ -10,7 +10,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian"); 
 
-	int a, b, c
+	int a, b, c, d, e
 
 	cout << "Pervoe chislo" << endl;
 	cin >> a;
@@ -19,7 +19,11 @@ int main()
 	cin >> b;
 
 	c = a / b;
+	d = a + b;
+	e = a - b;
 
-	cout << "PLUS = " << c << endl;
+	cout << "PLUS = " << d << endl;
+	cout << "MINUS = " << e << endl;
+	cout << "DELENIE = " << c << endl;
 
 }
