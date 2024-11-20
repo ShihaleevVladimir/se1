@@ -18,7 +18,7 @@ int main()
 	cout << "Vtoroe chislo" << endl;
 	cin >> b;
 
-	c = a / b;
+	c = a * b;
 
 	cout << "PLUS = " << c << endl;
 
